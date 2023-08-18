@@ -1,0 +1,22 @@
+/* ============== Service Text =============== */
+.service-title{
+    font-family: 'DM Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 21px !important;
+    color: #252525 !important;
+}
+
+.service-description{
+    font-weight: 400 !important;
+    font-size: 0.938rem !important;
+    color: #252525 !important;
+}
+
+/* ============= Adding Highlight View On Service Cards ================= */
+.service-card{
+    transition: var(--transition) !important;
+}
+.service-card:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2) !important;
+}

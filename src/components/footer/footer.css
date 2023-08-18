@@ -1,0 +1,39 @@
+footer{
+    border-top: 2px solid #eee;
+}
+
+footer .logo-brand {
+    font-family: 'DM Sans';
+    font-size: 2.1875rem;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.footer h4{
+    font-family: 'IBM Plex Sans' !important;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000FF0;
+}
+
+.footer-content{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-content li{
+    line-height: 30px;
+}
+
+.footer-content li a{
+    font-family: 'IBM Plex Sans' !important;
+    text-decoration: none;
+    font-weight: 400 !important;
+    font-size: 15px;
+    color: #000000 !important;
+}
+
+.footer-content li a:hover{
+    font-weight: 600 !important;
+    color: #FF6C36 !important;
+}

@@ -1,0 +1,16 @@
+/* ============= Threads ============= */
+.section2-thread1{
+    top: 4rem;
+    left: 28%;
+}
+
+.section2-thread2{
+    top: 3.5rem;
+    right: 0;
+    z-index: -1;
+}
+
+.section2-thread3{
+    bottom: 2rem;
+    left: 25%;
+}

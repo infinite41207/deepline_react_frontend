@@ -1,0 +1,222 @@
+/*=============== Package Text ================ */
+.package-started{
+    font-weight: 500;
+    font-size: 2.813rem;
+}
+
+.package-lead{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #828B95;
+}
+
+.package-text{
+    color: #0F0F11 !important;
+    font-weight: 400;
+    font-size: 0.875rem !important;
+    line-height: 25px;
+}
+
+.package-card-header h5{
+    font-weight: 400;
+    font-size: 0.875rem !important;
+    color: #17171A !important;
+}
+
+.package-highlighted-text{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #7F45FF;
+}
+
+.package-switch-text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #92989E;
+}
+
+.package-heading-1{
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    color: #17171A !important;
+}
+
+.package-heading-2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #121826;
+}
+
+.package-claim{
+    font-weight: 400;
+    font-size: 12px;
+    color: #94A3B8;
+}
+
+.package-info-title{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #121826;
+}
+
+.plan-content{
+    font-weight: 700;
+    font-size: 14.4px;
+    color: #121826;
+    height: 140px;
+}
+
+/*=============== Package Cards Section ============ */
+.package-card-section{
+    background-image: url('../../assets/images/packages/package-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.package-card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.package-card-header{
+    border-radius: 10px 10px 0px 0px;
+    background: #F8FAFC;
+}
+
+/*=============== Package Button ============ */
+.package-button{
+    background: linear-gradient(135deg, #4300A3 0%, #4D00AA 9.09%, #5700B1 18.18%, #6000B7 27.27%, #6A00BE 36.36%, #7200C5 45.45%, #7B00CB 54.55%, #8300D2 63.64%, #8C00DA 72.73%, #9500E2 81.82%, #9E00E9 90.91%, #A700F1 100%), #6F39D4;
+    color: #FFFFFF !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    border-radius: 2.5px !important;
+}
+/* .package-button:hover{
+    background-color: #4914ac !important;
+    transition: var(--transition);
+} */
+
+.see-all-btn{
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #060606 !important;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #D4DCE5;
+}
+.see-all-btn:hover{
+    color: #7F45FF !important;
+    transition: var(--transition);
+}
+
+/*=============== Package Divider ============ */
+.divider{
+    border-top: 1px solid #D4DCE5;
+    width: 100%;
+}
+
+/*=============== Most Popular Tag ============ */
+.most-popular-tag{
+    font-weight: 400;
+    font-size: 12px;
+    color: #2742F5;
+    background: #F2F5F9;
+    border: 1px solid #2742F5;
+    border-radius: 4px;
+    width: max-content;
+}
+
+/*=============== Switch Button Style (Custom) ============ */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 15px;
+}
+
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.switch-slider.pink {
+    background-color: #CDB7FF !important;
+}
+
+.switch-slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    bottom: -2px;
+    background-color: #222222;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .switch-slider {
+    background-color: #DEE0E1;
+}
+
+input:focus + .switch-slider {
+    box-shadow: 0 0 1px #DEE0E1;
+}
+
+input:checked + .switch-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.switch-slider.round {
+    border-radius: 34px;
+}
+
+.switch-slider.round:before {
+    border-radius: 50%;
+}
+
+/*=============== Range Slider Style (Custom) ============ */
+.rc-slider{
+    padding: 20px 0 !important;
+}
+.rc-slider-rail {
+    height: 10px !important;
+    background-color: #DFE9FA !important;
+}
+.rc-slider-step {
+    height: 10px !important;
+}
+.rc-slider-track {
+    height: 10px !important;
+    background-color: #3368FA !important;
+}
+.rc-slider-handle {
+    opacity:unset !important;
+    width: 25px !important;
+    height: 25px !important;
+    margin-top: -8px !important;
+    background-color: #FFFFFF !important;
+    border: solid 2px #3368FA !important;
+}

@@ -1,0 +1,78 @@
+/* =========== Threads =========== */
+.section7-thread1 {
+  bottom: 5rem;
+  left: -2rem;
+  z-index: -1;
+}
+
+.motion-image {
+  filter: drop-shadow(0px 0.51px 8.51px rgba(0, 0, 0, 0.06))
+    drop-shadow(0px 3.50689px 3.50689px rgba(0, 0, 0, 0.06));
+  border-radius: 12px;
+}
+
+.section7-thread2 {
+  top: 5rem;
+  right: -2rem;
+  z-index: -1;
+}
+
+.section7-thread3 {
+  bottom: 5rem;
+  left: -2rem;
+  z-index: -1;
+}
+
+.tag1 {
+  margin-top: 55px;
+  margin-left: -40px;
+}
+
+.stroke1 {
+  margin-top: 10px;
+  margin-left: -12px;
+}
+
+.stroke2 {
+  margin-top: 10px;
+  margin-left: -6px;
+}
+
+.stroke3 {
+  margin-right: -5px;
+  margin-top: -5px;
+}
+
+/* ============= Text ============== */
+.lead-text {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 67px;
+  color: #160647;
+}
+
+.heading-4 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.heading-5 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.info-text {
+  font-weight: 500 !important;
+  font-size: 18px;
+  line-height: 26px;
+  color: #160647 !important;
+}
+
+@media (max-width: 600px) {
+  .section7 {
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,14 @@
+.hero-section-customized-sol {
+  background: url("../../assets/images/product/bg.svg");
+  background-size: 100% 100%;
+}
+
+@media (max-width: 380px) {
+  .custom-solut-page-content > div:first-child p {
+    margin-top: 50px;
+  }
+
+  .why-us-heading p {
+    margin-top: 50px;
+  }
+}

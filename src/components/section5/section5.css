@@ -1,0 +1,32 @@
+/* ============= Threads ============= */
+.section5-thread1{
+    z-index: -1;
+    margin-right: 315px;
+    margin-top: -65px;
+}
+
+.section5-thread2{
+    margin-top: 155px;
+    margin-left: 360px;
+    z-index: -1;
+}
+
+@media (min-width: 768px) {
+    .section5-thread2 {
+        margin-right: 9rem !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .section5-hero {
+        width: 330px;
+    }
+
+    .section5-thread1 {
+        left: 0;
+    }
+    .section5-thread2 {
+        bottom: 0;
+        right: 0;
+    }
+}

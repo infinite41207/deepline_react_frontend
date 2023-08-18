@@ -1,0 +1,73 @@
+/*================ Navbar ==============  */
+nav.navbar {
+  /* background:  var(--color-catskill-white) !important; */
+  /* color: var(--color-cod-gray) !important; */
+  font-family: "DM Sans" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  padding: 10px 30px;
+  /* z-index: 1; */
+}
+
+nav.navbar .container-fluid {
+  max-width: 1452px;
+  margin: 0 auto;
+}
+
+.header-container {
+  max-width: 1452px;
+}
+
+/*============= Navbar Logo ============= */
+.navbar-brand {
+  font-family: "DM Sans" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 1.563rem;
+  color: var(--color-cod-gray);
+}
+
+/*============= Navbar Text ============= */
+#navbarText .nav-link {
+  font-family: "IBM Plex Sans" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 0.938rem;
+  line-height: 22px;
+}
+
+@media (max-width: 1120px) {
+  #navbarText {
+    position: fixed;
+    top: 3rem;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    background: rgb(245, 247, 250);;
+    padding: 30px;
+  }
+
+  #navbarText .nav-item {
+    border-top: 1px solid #E2E8F0;
+    padding: 10px 0;
+  }
+
+  #navbarText .nav-link {
+    font-size: 1.25rem;
+  }
+
+  .navbar-text {
+    padding: 0 !important;
+  }
+}
+
+/* .secondary_nav .nav-link{ */
+/* color: var(--color-black-russian) !important; */
+/* } */
+.primary_nav .nav-link:not(:last-child) {
+  color: var(--color-black-russian) !important;
+}
+.secondary_nav .nav-link:hover {
+  color: #f85c23 !important;
+}

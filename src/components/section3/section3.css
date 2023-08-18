@@ -1,0 +1,23 @@
+/* ============= Threads ============= */
+@media (max-width: 400px) {
+    .section3-hero {
+        height: 600px;
+    }
+}
+
+.section3-thread1{
+    margin-top: 220px;
+    left: 0;
+    z-index: -1;
+}
+
+.section3-thread2{
+    margin-top: 155px;
+    right: 0;
+    z-index: -1;
+}
+
+.section3-thread3{
+    bottom: 0;
+    right: 0;
+}

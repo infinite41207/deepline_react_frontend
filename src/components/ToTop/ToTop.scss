@@ -1,0 +1,48 @@
+@keyframes showIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes showOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+.to-top {
+  background: linear-gradient(
+    135deg,
+    #4300a3 0%,
+    #4d00aa 9.09%,
+    #5700b1 18.18%,
+    #6000b7 27.27%,
+    #6a00be 36.36%,
+    #7200c5 45.45%,
+    #7b00cb 54.55%,
+    #8300d2 63.64%,
+    #8c00da 72.73%,
+    #9500e2 81.82%,
+    #9e00e9 90.91%,
+    #a700f1 100%
+  );
+  border-radius: 50%;
+  min-width: 60px;
+  min-height: 60px;
+  animation: showIn forwards 0.2s ease-in-out;
+  filter: drop-shadow(0px 4px 10px rgba(51, 3, 95, 0.38));
+  position: fixed;
+  z-index: 999999;
+  bottom: 25px;
+  right: 25px;
+}

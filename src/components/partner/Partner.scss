@@ -1,0 +1,13 @@
+.partner {
+    background: #F9F9F9;
+    height: 290px;
+    transition: 0.5s ease-in;
+
+    .arrow {
+        margin-top: 30px;
+    }
+
+    &:hover {
+        background: #FFE4DC;
+    }
+}

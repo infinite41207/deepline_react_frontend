@@ -1,0 +1,111 @@
+.customer-header {
+  padding: 3rem 0;
+}
+
+.customer-header-images {
+  max-width: 400px;
+  margin: auto;
+}
+
+.stars-group {
+  right: -4rem;
+  bottom: 5rem;
+  z-index: 99;
+
+  @include media-breakpoint-down(sm) {
+    width: 150px;
+    right: 0;
+  }
+}
+
+.customer-thread2 {
+  left: 3rem;
+  top: 1rem;
+  z-index: 1;
+}
+
+.customer-header-desc {
+  font-size: 1.125rem;
+  color: #737373;
+  line-height: 1.8125rem;
+}
+
+.what-out-customers {
+  .out-customers {
+    padding: 2.5rem;
+    .out-customer-title {
+      font-size: 1.375rem;
+      line-height: 2rem;
+      color: rgba(33, 33, 40, 0.8);
+      margin-bottom: 2.5rem;
+    }
+
+    .quotes {
+      position: absolute;
+
+      &.left {
+        top: -2.5rem;
+        left: -2.5rem;
+      }
+      &.right {
+        bottom: -2.5rem;
+        right: -2.5rem;
+        transform: rotate(180deg);
+      }
+    }
+
+    .customer {
+      .avatar-left {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        left: -10px;
+        z-index: -1;
+        display: block;
+        background: linear-gradient(
+          148.46deg,
+          rgba(253, 167, 129, 0.6) 30.62%,
+          rgba(255, 255, 255, 0) 102.93%
+        );
+      }
+
+      .name-position {
+        color: #787882;
+        font-size: 0.875rem;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 3rem;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 9rem 0 0;
+  }
+}
+
+.products {
+  .logo {
+    img {
+      max-width: 10rem;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 6rem 0 9rem;
+  }
+}
+
+.ceo-section {
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 10rem;
+  }
+}
+
+section {
+  @include media-breakpoint-down(lg) {
+    padding: 1rem 0;
+  }
+}

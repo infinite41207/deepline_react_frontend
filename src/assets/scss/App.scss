@@ -1,0 +1,60 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./customers.scss";
+@import "./header.scss";
+@import "./resources.scss";
+@import "./partners.scss";
+
+.section-2 {
+  margin-top: 50px;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 120px;
+  }
+}
+
+.heading-1 {
+  font-family: "DM Sans" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 2.5rem !important;
+  color: var(--color-mine-shaft) !important;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 2rem !important;
+  }
+}
+
+.highlighted-text {
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+
+  @include media-breakpoint-up(lg) {
+    line-height: 1rem !important;
+  }
+}
+
+.highlighted-desc {
+  font-size: 1.25rem;
+  line-height: 25px;
+  color: #828b95;
+}
+
+.faqs-section {
+  background: #f5f7fa;
+  margin-top: 2.5rem;
+  padding: 3rem 0;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 6.5rem;
+    padding: 6.375rem 0;
+  }
+}
+
+.try-it-section {
+  padding: 3rem 0;
+
+  @include media-breakpoint-up(lg) {
+    padding: 8rem 0 6rem;
+  }
+}

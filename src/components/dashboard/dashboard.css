@@ -1,0 +1,262 @@
+/* =============== Sections ================= */
+.dashboard-section{
+    background-color: #F8FAFC !important;
+}
+.db-header{
+    height: 65px;
+}
+.side-nav{
+    min-width: 303px !important;
+}
+
+/* ================ Colors ================= */
+.output-content-bg-white{
+    background: #FFFFFF !important;
+}
+.output-content-bg-green{
+    background: #F0FDF4 !important;
+}
+
+/* ================ Text ================= */
+.db-heading-1{
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: #67757C !important;
+}
+.db-heading-2{
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #67757C !important;
+}
+.output-content{
+    border: 1px solid #CED4DA !important;
+    border-radius: 4.8px !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: #67757C !important;
+}
+.output-stats{
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    line-height: 17px !important;
+    color: #94A3B8 !important;
+}
+.sidenav-heading-1{
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #45565E !important;
+}
+.sidenav-subheading-1{
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    color: #45565E !important;
+}
+.user-head{
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #334155 !important;
+}
+
+/* ================ Buttons ================ */
+.plus-btn{
+    background: #FF7846 !important;
+    border-radius: 4.48438px !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #FFFFFF !important;
+}
+.clear-btn{
+    border: 1.0625px solid #E2E8F0 !important;
+    box-shadow: 0px 1.0625px 2.125px rgba(0, 0, 0, 0.05) !important;
+    border-radius: 8.5px !important;
+}
+.db-submit-btn{
+    background: #F8FAFC !important;
+    border: 1px solid #CED4DA !important;
+    box-shadow: 0px 1.0625px 2.125px rgba(0, 0, 0, 0.05) !important;
+    border-radius: 8.5px !important;
+}
+.new-btn{
+    background: #F1F5F9 !important;
+    border-radius: 3.2px !important;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    color: #5700B1 !important;
+    border: none !important;
+}
+.history-btn{
+    border: 1px solid #CED4DA !important;
+    border-radius: 3.2px !important;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    color: #67757C !important;
+}
+.credit-section{
+    border: 1px solid #E2E8F0 !important;
+    border-radius: 8px !important;
+}
+.credit-heading-1{
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #000000 !important;
+}
+.progress-status{
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    color: #64748B !important;
+}
+.progress-link a{
+    font-weight: 500 !important;
+    font-size: 13px !important; 
+    color: #001EB7 !important;
+}
+.links-section a{
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    color: #475569 !important;
+}
+.invitation-btn{
+    font-weight: 500 !important;
+    font-size: 13.4531px !important;
+    line-height: 18px !important;
+    color: #E2E8F0 !important;
+    border: 1.12109px solid #E2E8F0 !important;
+    border-radius: 4.48438px !important;
+}
+.dropdown-toggle::after {
+    margin: 0px !important;
+    border: none !important;
+}
+
+/*================= Accordian ================= */
+.side-nav .accordion-button::after{
+    background-image: url('../../assets/images/dashboard/collapse.svg') !important;
+    background-size: 13px 100%!important;
+    width: 13px !important;
+    transform: rotate(180deg) !important;
+}
+.side-nav .accordion-button:not(.collapsed)::after{
+    background-image: url('../../assets/images/dashboard/collapse.svg') !important;
+    background-size: 13px 100%!important;
+    width: 13px !important;
+    transform: rotate(0deg) !important;
+}
+.side-nav .accordion-button:not(.collapsed),
+.side-nav .accordion-button:not(.collapse){
+    background-color: transparent !important;
+}
+.accordion-item{
+    background-color: transparent !important;
+}
+
+/*================ Borders ================ */
+.bb-1px-link-water{
+    border-bottom: 1px solid #EAF2FB !important;
+}
+.bt-1px-link-water{
+    border-top: 1px solid #EAF2FB !important;
+}
+.br-1px-link-water{
+    border-right: 1px solid #EAF2FB !important;
+}
+
+/*=============== Output Dividrs =============== */
+.output-divider{
+    border-top: 1px solid #CED4DA !important;
+}
+
+/*================ Form Inputs =========== */
+.db-form label{
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #67757C !important;
+}
+.db-form input,textarea{
+    border: 1px solid #CED4DA !important;
+    border-radius: 4.8px !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #67757C !important;
+}
+textarea{
+    resize: none;
+}
+
+.db-form input::placeholder,
+.db-form textarea::placeholder{
+    color: #ADAAC0 !important;
+}
+
+.repeat-times-input{
+    border: 1.0625px solid #E2E8F0 !important;
+    box-shadow: 0px 1.0625px 2.125px rgba(0, 0, 0, 0.05) !important;
+    border-radius: 6.375px !important;
+    width: 85px !important;
+    padding-left: 20px !important;
+}
+.x-symbol{
+    margin-left: 9px !important;
+}
+
+
+/*=============== Text Length Range Slider Style (Custom) ============ */
+.text-length-range .rc-slider{
+    padding-top: 0px !important;
+    margin-bottom: 15px !important;
+}
+.text-length-range .range-count{
+    font-weight: 300 !important;
+    font-size: 13px !important;
+    color: #8F8FA0 !important;
+}
+.text-length-range .rc-slider-rail {
+    height: 25px !important;
+    background: #F9F9F9 !important;
+    border: 0.827558px solid #E4E6EB !important;
+    border-radius: 4.13779px !important;
+}
+.text-length-range .rc-slider-track {
+    background-color: transparent !important;
+}
+.text-length-range .rc-slider-handle {
+    width: 25px !important;
+    height: 25px !important;
+    background-color: #5401af !important;
+    border: none !important;
+    border-radius: 0% !important;
+    margin-top: 0px !important;
+}
+.text-length-range .rc-slider-handle-dragging{
+    box-shadow: none !important;
+}
+
+/*=============== Tone of Voice Select Styling (Custom) ============ */
+.css-1u9des2-indicatorSeparator{
+    width: 0px !important;
+}
+.css-13cymwt-control{
+    background: #FFFFFF !important;
+    border: transparent !important;
+    border-radius: 4.8px !important;
+    box-shadow: 0px !important;
+    outline: transparent !important;
+}
+
+.css-t3ipsp-control{
+    box-shadow: none!important;
+    border: none!important;
+}
+
+.css-13cymwt-control{
+    box-shadow: none!important;
+    border: none!important;
+}
+
+.css-1nmdiq5-menu {
+    margin-left: -2px;
+}
+
+.css-b62m3t-container{
+    padding: 0px 2px!important;
+}

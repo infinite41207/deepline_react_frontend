@@ -1,0 +1,27 @@
+.resources-page {
+  section {
+    padding: 3rem 0;
+  }
+
+  .header {
+    h1 {
+      font-family: "DM Sans";
+      color: #edf0f5;
+      font-size: 4rem;
+      font-weight: 700;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+
+      @include media-breakpoint-up(lg) {
+        font-size: 9.375rem;
+      }
+    }
+
+    .brain {
+      @include media-breakpoint-up(lg) {
+        position: relative;
+        top: -5rem;
+        margin-bottom: -5rem;
+      }
+    }
+  }
+}
